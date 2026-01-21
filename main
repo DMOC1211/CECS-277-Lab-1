@@ -1,3 +1,20 @@
 import check_input
 import random
 
+def main():
+    wallet = 100
+    bet = int(-1)
+    print("-Shell Game-")
+    print("Find the ball to double your bet!")
+    print("")
+    while int(wallet) > 0:
+        bet = check_input.get_int_range("Please Enter your bet: ", 1, int(wallet))
+        return
+            
+            
+    
+    print("  _____ ")
+    print(" /     \\")
+    print("/       \\")
+    print("---------")
+main()
